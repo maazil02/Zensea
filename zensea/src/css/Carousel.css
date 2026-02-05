@@ -1,0 +1,49 @@
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .img{
+    width: 100vw;
+    height: 650px;
+  }
+  button {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  .carousel-item {
+    display: none;
+    
+  }
+  
+  .carousel-item.active {
+    display: block;
+    animation: fadeIn 1s ease-in-out ;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  

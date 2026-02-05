@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #C1DBFF,#244ca9, #23229A, #151C35);
+  font-family: "Arial", sans-serif;
+}
+.header {
+  background-color: transparent;
+  color: #000000;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.acth1{
+  display: flex;
+  justify-content: center;
+  font-size: 54px;
+}
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 10PX;
+}
+
+.nav {
+  display: flex;
+  font-size: 17px;
+}
+
+.nav a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item {
+  position: relative; /* Position of sub-navigation relative to the nav item */
+}
+
+.sub-nav {
+  display: none;
+  position: sticky;
+  top: 100%; /* Positioning it below the nav item */
+  left: 0;
+  background: linear-gradient(to bottom, #244ca9, #030303);
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+
+.sub-nav a {
+  display: block;
+  color: #F9FAFF;
+  text-decoration: none;
+  margin: 0.5rem 0;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-item:hover .sub-nav {
+  display: block;
+}
+
+.nav a:hover {
+  color: #ffcc00;
+}
+
+.footer {
+  background-color: #333;
+  color: #F9FAFF;
+  padding: 2rem 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  max-width: 300px;
+}
+
+.footh {
+  color: #F9FAFF;
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 1rem;
+}
+.img1{
+  width: 30px;
+  height: auto;
+  padding: 10px;
+}
+/***********************************************************************/
+.mainHome{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.welcome{
+  width: 1250px;
+  height: auto;
+  display: flex;
+  align-items: center;  
+}
+
+.mainwel{
+  font-size: 30px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 100;
+  color: #F9FAFF;
+  animation: fadeIn 2s ease-in-out;
+}
+.slog{
+  display: flex;
+  justify-content: center;
+  align-items: center;padding: 20px;
+  padding-left: 500px;
+  
+  width: 50%;
+  height: auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.log{
+  width: 150px;
+  height: auto;
+}
+
+
+/*******************************************/
+
+
+.sub1{
+  width: fit-content;
+  height: fit-content;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.slogan{
+  width: 50%;
+  height: auto;
+}
+.imgslogan{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zslogo{
+  width: 15%;
+  height: auto;
+}
+
+.sub2{
+  width: fit-content;
+  height: fit-content;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #151C35;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.sub3{
+  width: fit-content;
+  height: fit-content;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #151C35;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.mainpara{
+  color: #C1DBFF;
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 35px;
+  padding-right: 35px;
+  opacity: 100%;
+}
+
+.mainhead{
+  color: #C1DBFF;
+  font-size: 40px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.subpara{
+  color: #F9FAFF;
+  font-size: large;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.subhead{
+  color: #F9FAFF;
+  font-size: x-large;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+}

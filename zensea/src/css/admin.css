@@ -1,0 +1,35 @@
+
+.mainad{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.adpage {
+  width: 300px;
+  background-color: #fefefe;
+  padding: 10px;
+}
+
+.adnav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.adpage nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.adpage nav ul li a {
+  text-decoration: none;
+  color: rgb(23, 23, 23);
+  font-weight: bold;
+}
+
+.adpage nav ul li a:hover {
+  color: #ffcc00;
+}

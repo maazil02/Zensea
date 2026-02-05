@@ -1,0 +1,164 @@
+.nsmain {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.night-diving-info {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  padding: 50px;
+}
+
+.info-container {
+  flex: 2;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.night-diving-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.nsh2 {
+  color: #ffffff;
+}
+
+.nsp {
+  color: #ffffff;
+}
+
+.amenities-card {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h3 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nsul {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.price {
+  margin-top: 15px;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.nsinfo {
+  padding: 50px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  object-fit: contain;
+  color: aliceblue;
+}
+.nsol {
+  color: #fff;
+}
+.nsh4 {
+  font-size: 25px;
+}
+
+.nspp {
+  font-size: 20px;
+}
+
+/* OverlayImageText */
+.overlaycontainer {
+  position: relative;
+}
+
+.imageoverlay {
+  position: relative;
+  width: 100%;
+}
+
+.overlayimage {
+  width: 100%;
+  height: 500px;
+  display: block;
+  border-radius: 8px;
+}
+
+.textoverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 100px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.textoverlaysmall {
+  position: absolute;
+  padding-top: 0px;
+  color: #f4f4f4;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.nsbd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.nsb {
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  outline: 1px dashed #333;
+  padding: 10px;
+  margin: 15px 0 0;
+  display: inline-block;
+}
+.nsb:hover {
+  background: #333;
+  color: whitesmoke;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nsfsd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.nsfs {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  outline: 1px dashed #ffffff;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 15px 0 0;
+  display: inline-block;
+}
+.nsfs:hover {
+  background: #f8f8f8;
+  color: rgb(0, 0, 0);
+  box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
